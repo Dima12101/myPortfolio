@@ -1,0 +1,9 @@
+{% block content %}
+    {% if latest_comments_list %}
+        {% for comment in latest_comments_list %}
+            <a href="">{{comment.author_name}}</a>
+        {% endfor %}
+    {% else %}
+        Нет комментариев
+    {% endif %}
+{% endblock %}
