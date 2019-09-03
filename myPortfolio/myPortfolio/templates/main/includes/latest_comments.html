@@ -1,9 +1,11 @@
 {% block content %}
+<p><b>Последние комментарии от:</b>
     {% if latest_comments_list %}
         {% for comment in latest_comments_list %}
-            <a href="">{{comment.author_name}}</a>
+            <span><a href="{% url 'main:detail_comment' comment.id %}">{{comment.author_name}}</a>; </span>
         {% endfor %}
     {% else %}
-        Нет комментариев
+        Нет комментариев :(
     {% endif %}
+</p>
 {% endblock %}

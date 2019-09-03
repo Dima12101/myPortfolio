@@ -1,9 +1,18 @@
 {% extends 'base.html' %}
 
-{% block title %}Последние комментарии{% endblock %}
-
 {% block content %}
 
-    Some text...
+<h3 class="text-info" >Оставить комментарий</h3>
+<form action="{% url 'main:leave_comment' %}" method="POST">
+
+    {% csrf_token %}
+
+    <input type="text" required placeholder="Ваше имя" name="name"><br>
+    <textarea name="text" required placeholder="Текст комментария" cols="30" rows="10"></textarea><br>
+
+    <button type="submit">Отправить</button>
+</form>
+<hr>
+<p>{% include "main/includes/latest_comments.html" %}</p>
 
 {% endblock %}

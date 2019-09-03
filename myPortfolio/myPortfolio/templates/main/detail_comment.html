@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Комментарий от '{{comment.author_name}}'{% endblock %}
+
+{% block content %}
+
+<h2>Комментарий от '{{comment.author_name}}'</h2>
+
+<p><b>Содежимое:</b> {{comment.comment_text}}</p>
+
+<!--{{comment.date|date:"d-m-Y"}}-->
+<p><b>Дата:</b> <em>{{comment.date}}</em>
+{% if comment.waz_comment_recently %}
+СВЕЖИЙ КОММЕНТАРИЙ!
+{% endif %}
+</p>
+{% endblock %}

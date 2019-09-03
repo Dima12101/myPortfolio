@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="244d48d4-b5d6-435b-a490-f8bbc9719ed3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/myPortfolio.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myPortfolio/apps/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myPortfolio/apps/main/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myPortfolio/apps/main/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/myPortfolio/apps/main/apps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myPortfolio/apps/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myPortfolio/apps/main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myPortfolio/apps/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myPortfolio/apps/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myPortfolio/apps/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myPortfolio/apps/main/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myPortfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myPortfolio/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myPortfolio/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/myPortfolio/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myPortfolio/templates/main/detail_comment.html" beforeDir="false" afterPath="$PROJECT_DIR$/myPortfolio/templates/main/detail_comment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myPortfolio/templates/main/includes/latest_comments.html" beforeDir="false" afterPath="$PROJECT_DIR$/myPortfolio/templates/main/includes/latest_comments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myPortfolio/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myPortfolio/templates/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myPortfolio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myPortfolio/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -25,17 +33,32 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1QKqywChC9SnpynTOh4fNQWmELY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\I\Desktop\myPortfolio\myPortfolio\static" />
+      <recent name="C:\Users\I\Desktop\myPortfolio\myPortfolio\myPortfolio\apps\main\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\I\Desktop\myPortfolio\myPortfolio\myPortfolio\apps\main" />
+      <recent name="C:\Users\I\Desktop\myPortfolio\myPortfolio\myPortfolio\apps" />
+      <recent name="C:\Users\I\Desktop\myPortfolio\myPortfolio\myPortfolio\static" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -60,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1567529893863</updated>
       <workItem from="1567529897582" duration="1949000" />
-      <workItem from="1567532207027" duration="1680000" />
+      <workItem from="1567532207027" duration="17127000" />
     </task>
     <servers />
   </component>
@@ -77,5 +100,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
